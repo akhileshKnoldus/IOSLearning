@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qDX-EV-jXm">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="e0W-JR-T44">
+            <objects>
+                <viewController id="qDX-EV-jXm" customClass="ViewController" customModule="ViewTraning" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Yh5-C6-Xwq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hTN-My-dLu">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="i4A-M2-3OZ">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="i4A-M2-3OZ" id="z6q-pb-v23">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="qDX-EV-jXm" id="fyL-dy-Tcy"/>
+                                    <outlet property="delegate" destination="qDX-EV-jXm" id="YHc-l4-jXN"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hTN-My-dLu" firstAttribute="trailing" secondItem="cGP-HS-3Es" secondAttribute="trailing" id="43E-KZ-XHl"/>
+                            <constraint firstItem="hTN-My-dLu" firstAttribute="leading" secondItem="cGP-HS-3Es" secondAttribute="leading" id="OUy-VU-hld"/>
+                            <constraint firstItem="hTN-My-dLu" firstAttribute="top" secondItem="cGP-HS-3Es" secondAttribute="top" id="Q4g-iR-vOA"/>
+                            <constraint firstItem="hTN-My-dLu" firstAttribute="trailing" secondItem="cGP-HS-3Es" secondAttribute="trailing" id="ah3-mK-Bpc"/>
+                            <constraint firstItem="hTN-My-dLu" firstAttribute="top" secondItem="cGP-HS-3Es" secondAttribute="top" id="hHt-xF-hxv"/>
+                            <constraint firstItem="hTN-My-dLu" firstAttribute="leading" secondItem="cGP-HS-3Es" secondAttribute="leading" id="oCw-9r-jjy"/>
+                            <constraint firstItem="hTN-My-dLu" firstAttribute="bottom" secondItem="cGP-HS-3Es" secondAttribute="bottom" id="xR7-H7-Hkv"/>
+                            <constraint firstItem="hTN-My-dLu" firstAttribute="bottom" secondItem="cGP-HS-3Es" secondAttribute="bottom" id="yGR-Sz-Hwh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cGP-HS-3Es"/>
+                    </view>
+                    <connections>
+                        <outlet property="myTableView" destination="hTN-My-dLu" id="0zv-Ql-ATI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rD3-0e-m8J" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-95.200000000000003" y="70.614692653673174"/>
+        </scene>
+    </scenes>
+</document>
