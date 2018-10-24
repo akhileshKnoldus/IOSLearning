@@ -1,0 +1,16 @@
+PODS:
+  - ActiveLabel (0.9.0)
+
+DEPENDENCIES:
+  - ActiveLabel (= 0.9.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ActiveLabel
+
+SPEC CHECKSUMS:
+  ActiveLabel: c4fdd14a288483e98b5a3dff0ab214699aeee74a
+
+PODFILE CHECKSUM: 4f96eab79208bed140677f32076ed13d7d32c601
+
+COCOAPODS: 1.5.3
