@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DropDown" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="vJl-MG-Y5i">
+                                <rect key="frame" x="0.0" y="20" width="375" height="36"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OBn-uc-Pta">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="36"/>
+                                        <color key="backgroundColor" red="0.27945275079999998" green="0.60751110409999998" blue="0.010945301169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="Selected CIty">
+                                            <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="SelectedCity:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Low-NB-EJh"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vl4-Yl-S4e">
+                                        <rect key="frame" x="0.0" y="-20" width="375" height="0.0"/>
+                                        <color key="backgroundColor" red="0.81729607069999999" green="0.72607438229999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="City4"/>
+                                        <connections>
+                                            <action selector="city4Clciked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w9Q-nv-6h9"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHX-Z2-vnM">
+                                        <rect key="frame" x="0.0" y="-20" width="375" height="0.0"/>
+                                        <color key="backgroundColor" red="0.81729607069999999" green="0.72607438229999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="City3"/>
+                                        <connections>
+                                            <action selector="city3Clciked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gpN-8n-I5P"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FFq-T7-Fnf">
+                                        <rect key="frame" x="0.0" y="-20" width="375" height="0.0"/>
+                                        <color key="backgroundColor" red="0.81729607069999999" green="0.72607438229999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="City2"/>
+                                        <connections>
+                                            <action selector="city2Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V8P-yJ-Xnh"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zly-xg-3Dq">
+                                        <rect key="frame" x="0.0" y="-20" width="375" height="0.0"/>
+                                        <color key="backgroundColor" red="0.81729607069999999" green="0.72607438229999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="City1"/>
+                                        <connections>
+                                            <action selector="city1Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Pa-3k-o5I"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="OBn-uc-Pta" firstAttribute="leading" secondItem="vJl-MG-Y5i" secondAttribute="leading" id="0l3-R2-LiM"/>
+                                    <constraint firstAttribute="trailing" secondItem="HHX-Z2-vnM" secondAttribute="trailing" id="GXa-VE-BER"/>
+                                    <constraint firstItem="zly-xg-3Dq" firstAttribute="leading" secondItem="vJl-MG-Y5i" secondAttribute="leading" id="Kpc-Ou-trv"/>
+                                    <constraint firstAttribute="trailing" secondItem="zly-xg-3Dq" secondAttribute="trailing" id="NPk-6o-Fj6"/>
+                                    <constraint firstAttribute="trailing" secondItem="OBn-uc-Pta" secondAttribute="trailing" id="afx-pp-jdh"/>
+                                    <constraint firstItem="vl4-Yl-S4e" firstAttribute="leading" secondItem="vJl-MG-Y5i" secondAttribute="leading" id="hjU-om-xsc"/>
+                                    <constraint firstItem="HHX-Z2-vnM" firstAttribute="leading" secondItem="vJl-MG-Y5i" secondAttribute="leading" id="jWI-cq-4Jf"/>
+                                    <constraint firstItem="FFq-T7-Fnf" firstAttribute="leading" secondItem="vJl-MG-Y5i" secondAttribute="leading" id="p2J-uK-sz4"/>
+                                    <constraint firstAttribute="trailing" secondItem="vl4-Yl-S4e" secondAttribute="trailing" id="q40-Sf-eLw"/>
+                                    <constraint firstAttribute="trailing" secondItem="FFq-T7-Fnf" secondAttribute="trailing" id="xD4-bb-VTV"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vJl-MG-Y5i" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Cpa-Td-2uN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vJl-MG-Y5i" secondAttribute="trailing" id="Yg8-DM-NuV"/>
+                            <constraint firstItem="vJl-MG-Y5i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Zsh-KR-TxJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="selectedButton" destination="OBn-uc-Pta" id="0oc-99-G7a"/>
+                        <outletCollection property="city" destination="zly-xg-3Dq" collectionClass="NSMutableArray" id="xGm-b4-tnJ"/>
+                        <outletCollection property="city" destination="vl4-Yl-S4e" collectionClass="NSMutableArray" id="Odr-Kz-dZd"/>
+                        <outletCollection property="city" destination="HHX-Z2-vnM" collectionClass="NSMutableArray" id="2Bu-zK-T8C"/>
+                        <outletCollection property="city" destination="FFq-T7-Fnf" collectionClass="NSMutableArray" id="Ybs-j2-RA7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>

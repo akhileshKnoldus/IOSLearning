@@ -1,0 +1,6 @@
+framework module Pods_GoogleSignup {
+  umbrella header "Pods-GoogleSignup-umbrella.h"
+
+  export *
+  module * { export * }
+}
