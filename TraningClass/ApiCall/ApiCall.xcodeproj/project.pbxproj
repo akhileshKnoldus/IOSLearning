@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40E59C7ACDEB4F586F06126B /* Pods_ApiCall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AC503E64FBABC783A85C6B /* Pods_ApiCall.framework */; };
+		5D3EFD3921A423C700388405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EFD3821A423C700388405 /* AppDelegate.swift */; };
+		5D3EFD3B21A423C700388405 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EFD3A21A423C700388405 /* ViewController.swift */; };
+		5D3EFD3E21A423C700388405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3EFD3C21A423C700388405 /* Main.storyboard */; };
+		5D3EFD4021A423CD00388405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D3EFD3F21A423CD00388405 /* Assets.xcassets */; };
+		5D3EFD4321A423CD00388405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3EFD4121A423CD00388405 /* LaunchScreen.storyboard */; };
+		5D3EFD4F21A430C700388405 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EFD4D21A430C700388405 /* ListCell.swift */; };
+		5D3EFD5021A430C700388405 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D3EFD4E21A430C700388405 /* ListCell.xib */; };
+		5D3EFD5321A440F500388405 /* PaymentStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EFD5121A440F500388405 /* PaymentStatusCell.swift */; };
+		5D3EFD5421A440F500388405 /* PaymentStatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D3EFD5221A440F500388405 /* PaymentStatusCell.xib */; };
+		5D3EFD5721A442A200388405 /* CardInformationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EFD5521A442A200388405 /* CardInformationCell.swift */; };
+		5D3EFD5821A442A200388405 /* CardInformationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D3EFD5621A442A200388405 /* CardInformationCell.xib */; };
+		5D3EFD5B21A4453600388405 /* PayementAmountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EFD5921A4453600388405 /* PayementAmountCell.swift */; };
+		5D3EFD5C21A4453600388405 /* PayementAmountCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D3EFD5A21A4453600388405 /* PayementAmountCell.xib */; };
+		5D3EFD5F21A4481D00388405 /* TattoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EFD5D21A4481D00388405 /* TattoCell.swift */; };
+		5D3EFD6021A4481D00388405 /* TattoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D3EFD5E21A4481D00388405 /* TattoCell.xib */; };
+		5D3EFD6321A44E8200388405 /* ConsentFormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EFD6121A44E8200388405 /* ConsentFormCell.swift */; };
+		5D3EFD6421A44E8200388405 /* ConsentFormCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D3EFD6221A44E8200388405 /* ConsentFormCell.xib */; };
+		5D3EFD6A21A4515A00388405 /* ListViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EFD6921A4515A00388405 /* ListViewC.swift */; };
+		5D3EFD6D21A452FA00388405 /* BaseTabelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EFD6C21A452FA00388405 /* BaseTabelViewCell.swift */; };
+		5D3EFD7221A453DF00388405 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EFD7121A453DF00388405 /* ListModel.swift */; };
+		5D3EFD7521A45A6800388405 /* SeperatorFullWidhCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EFD7321A45A6700388405 /* SeperatorFullWidhCell.swift */; };
+		5D3EFD7621A45A6800388405 /* SeperatorFullWidhCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D3EFD7421A45A6800388405 /* SeperatorFullWidhCell.xib */; };
+		5D3EFD7821A45D6B00388405 /* TattoInformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EFD7721A45D6B00388405 /* TattoInformationModel.swift */; };
+		5D3EFD7A21A45FB800388405 /* TattoInformationViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EFD7921A45FB800388405 /* TattoInformationViewC.swift */; };
+		5D3EFD7D21A4656A00388405 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EFD7B21A4656A00388405 /* LabelCell.swift */; };
+		5D3EFD7E21A4656A00388405 /* LabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D3EFD7C21A4656A00388405 /* LabelCell.xib */; };
+		5D3EFD8121A466F700388405 /* TattoInformationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EFD7F21A466F700388405 /* TattoInformationCell.swift */; };
+		5D3EFD8221A466F700388405 /* TattoInformationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D3EFD8021A466F700388405 /* TattoInformationCell.xib */; };
+		5D3EFD8521A4683C00388405 /* UploadTatto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EFD8321A4683C00388405 /* UploadTatto.swift */; };
+		5D3EFD8621A4683C00388405 /* UploadTatto.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D3EFD8421A4683C00388405 /* UploadTatto.xib */; };
+		5D3EFD8C21A46F0900388405 /* DepositeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EFD8B21A46F0900388405 /* DepositeModel.swift */; };
+		5D3EFD8F21A471B400388405 /* DateTimeNDepositeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EFD8D21A471B400388405 /* DateTimeNDepositeCell.swift */; };
+		5D3EFD9021A471B400388405 /* DateTimeNDepositeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D3EFD8E21A471B400388405 /* DateTimeNDepositeCell.xib */; };
+		5D3EFD9221A4781C00388405 /* DepositeViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3EFD9121A4781C00388405 /* DepositeViewC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2252B227D55A02E9FF03BCC7 /* Pods-ApiCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiCall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApiCall/Pods-ApiCall.debug.xcconfig"; sourceTree = "<group>"; };
+		3DF941E80AEBF8520A42D3D3 /* Pods-ApiCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApiCall.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApiCall/Pods-ApiCall.release.xcconfig"; sourceTree = "<group>"; };
+		5D3EFD3521A423C700388405 /* ApiCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApiCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3EFD3821A423C700388405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D3EFD3A21A423C700388405 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D3EFD3D21A423C700388405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D3EFD3F21A423CD00388405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D3EFD4221A423CD00388405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D3EFD4421A423CD00388405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D3EFD4D21A430C700388405 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		5D3EFD4E21A430C700388405 /* ListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
+		5D3EFD5121A440F500388405 /* PaymentStatusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentStatusCell.swift; sourceTree = "<group>"; };
+		5D3EFD5221A440F500388405 /* PaymentStatusCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentStatusCell.xib; sourceTree = "<group>"; };
+		5D3EFD5521A442A200388405 /* CardInformationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInformationCell.swift; sourceTree = "<group>"; };
+		5D3EFD5621A442A200388405 /* CardInformationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardInformationCell.xib; sourceTree = "<group>"; };
+		5D3EFD5921A4453600388405 /* PayementAmountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayementAmountCell.swift; sourceTree = "<group>"; };
+		5D3EFD5A21A4453600388405 /* PayementAmountCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayementAmountCell.xib; sourceTree = "<group>"; };
+		5D3EFD5D21A4481D00388405 /* TattoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TattoCell.swift; sourceTree = "<group>"; };
+		5D3EFD5E21A4481D00388405 /* TattoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TattoCell.xib; sourceTree = "<group>"; };
+		5D3EFD6121A44E8200388405 /* ConsentFormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentFormCell.swift; sourceTree = "<group>"; };
+		5D3EFD6221A44E8200388405 /* ConsentFormCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConsentFormCell.xib; sourceTree = "<group>"; };
+		5D3EFD6921A4515A00388405 /* ListViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewC.swift; sourceTree = "<group>"; };
+		5D3EFD6C21A452FA00388405 /* BaseTabelViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabelViewCell.swift; sourceTree = "<group>"; };
+		5D3EFD7121A453DF00388405 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		5D3EFD7321A45A6700388405 /* SeperatorFullWidhCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeperatorFullWidhCell.swift; sourceTree = "<group>"; };
+		5D3EFD7421A45A6800388405 /* SeperatorFullWidhCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeperatorFullWidhCell.xib; sourceTree = "<group>"; };
+		5D3EFD7721A45D6B00388405 /* TattoInformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TattoInformationModel.swift; sourceTree = "<group>"; };
+		5D3EFD7921A45FB800388405 /* TattoInformationViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TattoInformationViewC.swift; sourceTree = "<group>"; };
+		5D3EFD7B21A4656A00388405 /* LabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
+		5D3EFD7C21A4656A00388405 /* LabelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelCell.xib; sourceTree = "<group>"; };
+		5D3EFD7F21A466F700388405 /* TattoInformationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TattoInformationCell.swift; sourceTree = "<group>"; };
+		5D3EFD8021A466F700388405 /* TattoInformationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TattoInformationCell.xib; sourceTree = "<group>"; };
+		5D3EFD8321A4683C00388405 /* UploadTatto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadTatto.swift; sourceTree = "<group>"; };
+		5D3EFD8421A4683C00388405 /* UploadTatto.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UploadTatto.xib; sourceTree = "<group>"; };
+		5D3EFD8B21A46F0900388405 /* DepositeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositeModel.swift; sourceTree = "<group>"; };
+		5D3EFD8D21A471B400388405 /* DateTimeNDepositeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeNDepositeCell.swift; sourceTree = "<group>"; };
+		5D3EFD8E21A471B400388405 /* DateTimeNDepositeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateTimeNDepositeCell.xib; sourceTree = "<group>"; };
+		5D3EFD9121A4781C00388405 /* DepositeViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositeViewC.swift; sourceTree = "<group>"; };
+		79AC503E64FBABC783A85C6B /* Pods_ApiCall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApiCall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D3EFD3221A423C700388405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E59C7ACDEB4F586F06126B /* Pods_ApiCall.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A370ABCD134180E8907AA7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2252B227D55A02E9FF03BCC7 /* Pods-ApiCall.debug.xcconfig */,
+				3DF941E80AEBF8520A42D3D3 /* Pods-ApiCall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D3EFD2C21A423C700388405 = {
+			isa = PBXGroup;
+			children = (
+				5D3EFD3721A423C700388405 /* ApiCall */,
+				5D3EFD3621A423C700388405 /* Products */,
+				4A370ABCD134180E8907AA7C /* Pods */,
+				C8783579BFBC6C07182C638D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D3EFD3621A423C700388405 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D3EFD3521A423C700388405 /* ApiCall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D3EFD3721A423C700388405 /* ApiCall */ = {
+			isa = PBXGroup;
+			children = (
+				5D3EFD6E21A453A300388405 /* Model */,
+				5D3EFD6B21A452C600388405 /* Base */,
+				5D3EFD6821A4513500388405 /* Controller */,
+				5D3EFD6521A450BC00388405 /* View */,
+				5D3EFD4C21A430A700388405 /* Cell */,
+				5D3EFD3821A423C700388405 /* AppDelegate.swift */,
+				5D3EFD3A21A423C700388405 /* ViewController.swift */,
+				5D3EFD3F21A423CD00388405 /* Assets.xcassets */,
+				5D3EFD4121A423CD00388405 /* LaunchScreen.storyboard */,
+				5D3EFD4421A423CD00388405 /* Info.plist */,
+			);
+			path = ApiCall;
+			sourceTree = "<group>";
+		};
+		5D3EFD4C21A430A700388405 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5D3EFD7B21A4656A00388405 /* LabelCell.swift */,
+				5D3EFD7C21A4656A00388405 /* LabelCell.xib */,
+				5D3EFD7321A45A6700388405 /* SeperatorFullWidhCell.swift */,
+				5D3EFD7421A45A6800388405 /* SeperatorFullWidhCell.xib */,
+				5D3EFD4D21A430C700388405 /* ListCell.swift */,
+				5D3EFD4E21A430C700388405 /* ListCell.xib */,
+				5D3EFD5121A440F500388405 /* PaymentStatusCell.swift */,
+				5D3EFD5221A440F500388405 /* PaymentStatusCell.xib */,
+				5D3EFD5521A442A200388405 /* CardInformationCell.swift */,
+				5D3EFD5621A442A200388405 /* CardInformationCell.xib */,
+				5D3EFD5921A4453600388405 /* PayementAmountCell.swift */,
+				5D3EFD5A21A4453600388405 /* PayementAmountCell.xib */,
+				5D3EFD5D21A4481D00388405 /* TattoCell.swift */,
+				5D3EFD5E21A4481D00388405 /* TattoCell.xib */,
+				5D3EFD6121A44E8200388405 /* ConsentFormCell.swift */,
+				5D3EFD6221A44E8200388405 /* ConsentFormCell.xib */,
+				5D3EFD7F21A466F700388405 /* TattoInformationCell.swift */,
+				5D3EFD8021A466F700388405 /* TattoInformationCell.xib */,
+				5D3EFD8321A4683C00388405 /* UploadTatto.swift */,
+				5D3EFD8421A4683C00388405 /* UploadTatto.xib */,
+				5D3EFD8D21A471B400388405 /* DateTimeNDepositeCell.swift */,
+				5D3EFD8E21A471B400388405 /* DateTimeNDepositeCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5D3EFD6521A450BC00388405 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D3EFD3C21A423C700388405 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D3EFD6821A4513500388405 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5D3EFD6921A4515A00388405 /* ListViewC.swift */,
+				5D3EFD7921A45FB800388405 /* TattoInformationViewC.swift */,
+				5D3EFD9121A4781C00388405 /* DepositeViewC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5D3EFD6B21A452C600388405 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5D3EFD6C21A452FA00388405 /* BaseTabelViewCell.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5D3EFD6E21A453A300388405 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D3EFD7121A453DF00388405 /* ListModel.swift */,
+				5D3EFD7721A45D6B00388405 /* TattoInformationModel.swift */,
+				5D3EFD8B21A46F0900388405 /* DepositeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C8783579BFBC6C07182C638D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79AC503E64FBABC783A85C6B /* Pods_ApiCall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D3EFD3421A423C700388405 /* ApiCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D3EFD4721A423CD00388405 /* Build configuration list for PBXNativeTarget "ApiCall" */;
+			buildPhases = (
+				AD53890AC848CFC5F653C5AD /* [CP] Check Pods Manifest.lock */,
+				5D3EFD3121A423C700388405 /* Sources */,
+				5D3EFD3221A423C700388405 /* Frameworks */,
+				5D3EFD3321A423C700388405 /* Resources */,
+				7E043CFA07D77F72E59AB1D4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApiCall;
+			productName = ApiCall;
+			productReference = 5D3EFD3521A423C700388405 /* ApiCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D3EFD2D21A423C700388405 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = appventurez;
+				TargetAttributes = {
+					5D3EFD3421A423C700388405 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 5D3EFD3021A423C700388405 /* Build configuration list for PBXProject "ApiCall" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D3EFD2C21A423C700388405;
+			productRefGroup = 5D3EFD3621A423C700388405 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D3EFD3421A423C700388405 /* ApiCall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D3EFD3321A423C700388405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3EFD5821A442A200388405 /* CardInformationCell.xib in Resources */,
+				5D3EFD4321A423CD00388405 /* LaunchScreen.storyboard in Resources */,
+				5D3EFD6021A4481D00388405 /* TattoCell.xib in Resources */,
+				5D3EFD8621A4683C00388405 /* UploadTatto.xib in Resources */,
+				5D3EFD8221A466F700388405 /* TattoInformationCell.xib in Resources */,
+				5D3EFD7E21A4656A00388405 /* LabelCell.xib in Resources */,
+				5D3EFD9021A471B400388405 /* DateTimeNDepositeCell.xib in Resources */,
+				5D3EFD5021A430C700388405 /* ListCell.xib in Resources */,
+				5D3EFD4021A423CD00388405 /* Assets.xcassets in Resources */,
+				5D3EFD5C21A4453600388405 /* PayementAmountCell.xib in Resources */,
+				5D3EFD5421A440F500388405 /* PaymentStatusCell.xib in Resources */,
+				5D3EFD6421A44E8200388405 /* ConsentFormCell.xib in Resources */,
+				5D3EFD7621A45A6800388405 /* SeperatorFullWidhCell.xib in Resources */,
+				5D3EFD3E21A423C700388405 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E043CFA07D77F72E59AB1D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ApiCall/Pods-ApiCall-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApiCall/Pods-ApiCall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD53890AC848CFC5F653C5AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApiCall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D3EFD3121A423C700388405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3EFD6D21A452FA00388405 /* BaseTabelViewCell.swift in Sources */,
+				5D3EFD5321A440F500388405 /* PaymentStatusCell.swift in Sources */,
+				5D3EFD7521A45A6800388405 /* SeperatorFullWidhCell.swift in Sources */,
+				5D3EFD4F21A430C700388405 /* ListCell.swift in Sources */,
+				5D3EFD8F21A471B400388405 /* DateTimeNDepositeCell.swift in Sources */,
+				5D3EFD6321A44E8200388405 /* ConsentFormCell.swift in Sources */,
+				5D3EFD5B21A4453600388405 /* PayementAmountCell.swift in Sources */,
+				5D3EFD3B21A423C700388405 /* ViewController.swift in Sources */,
+				5D3EFD8121A466F700388405 /* TattoInformationCell.swift in Sources */,
+				5D3EFD5721A442A200388405 /* CardInformationCell.swift in Sources */,
+				5D3EFD5F21A4481D00388405 /* TattoCell.swift in Sources */,
+				5D3EFD6A21A4515A00388405 /* ListViewC.swift in Sources */,
+				5D3EFD8521A4683C00388405 /* UploadTatto.swift in Sources */,
+				5D3EFD7A21A45FB800388405 /* TattoInformationViewC.swift in Sources */,
+				5D3EFD7221A453DF00388405 /* ListModel.swift in Sources */,
+				5D3EFD3921A423C700388405 /* AppDelegate.swift in Sources */,
+				5D3EFD7D21A4656A00388405 /* LabelCell.swift in Sources */,
+				5D3EFD9221A4781C00388405 /* DepositeViewC.swift in Sources */,
+				5D3EFD8C21A46F0900388405 /* DepositeModel.swift in Sources */,
+				5D3EFD7821A45D6B00388405 /* TattoInformationModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D3EFD3C21A423C700388405 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D3EFD3D21A423C700388405 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D3EFD4121A423CD00388405 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D3EFD4221A423CD00388405 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D3EFD4521A423CD00388405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D3EFD4621A423CD00388405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D3EFD4821A423CD00388405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2252B227D55A02E9FF03BCC7 /* Pods-ApiCall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ApiCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appVenturez.com.ApiCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D3EFD4921A423CD00388405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF941E80AEBF8520A42D3D3 /* Pods-ApiCall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ApiCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appVenturez.com.ApiCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D3EFD3021A423C700388405 /* Build configuration list for PBXProject "ApiCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3EFD4521A423CD00388405 /* Debug */,
+				5D3EFD4621A423CD00388405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D3EFD4721A423CD00388405 /* Build configuration list for PBXNativeTarget "ApiCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3EFD4821A423CD00388405 /* Debug */,
+				5D3EFD4921A423CD00388405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D3EFD2D21A423C700388405 /* Project object */;
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="77" id="KGk-i7-Jjw" customClass="CardInformationCell" customModule="ApiCall" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="77"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="76.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PEW-pB-s1U">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="76.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Card Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gf-iP-mAF">
+                                <rect key="frame" x="30" y="10" width="260" height="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$500" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFy-cd-URd">
+                                <rect key="frame" x="30" y="46" width="260" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3gf-iP-mAF" firstAttribute="leading" secondItem="PEW-pB-s1U" secondAttribute="leading" constant="30" id="6og-r0-XGh"/>
+                            <constraint firstItem="bFy-cd-URd" firstAttribute="top" secondItem="3gf-iP-mAF" secondAttribute="bottom" constant="5" id="DY0-Pd-XiD"/>
+                            <constraint firstAttribute="bottom" secondItem="bFy-cd-URd" secondAttribute="bottom" constant="10" id="FiL-IB-SvA"/>
+                            <constraint firstItem="3gf-iP-mAF" firstAttribute="top" secondItem="PEW-pB-s1U" secondAttribute="top" constant="10" id="R60-RL-22O"/>
+                            <constraint firstAttribute="trailing" secondItem="3gf-iP-mAF" secondAttribute="trailing" constant="30" id="hAT-pn-3rP"/>
+                            <constraint firstItem="bFy-cd-URd" firstAttribute="leading" secondItem="PEW-pB-s1U" secondAttribute="leading" constant="30" id="qrJ-mN-wck"/>
+                            <constraint firstAttribute="trailing" secondItem="bFy-cd-URd" secondAttribute="trailing" constant="30" id="zht-4h-pgn"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="PEW-pB-s1U" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="P79-Nm-mDS"/>
+                    <constraint firstItem="PEW-pB-s1U" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="VBO-Qj-pXS"/>
+                    <constraint firstAttribute="bottom" secondItem="PEW-pB-s1U" secondAttribute="bottom" id="cDo-Wn-SXY"/>
+                    <constraint firstAttribute="trailing" secondItem="PEW-pB-s1U" secondAttribute="trailing" id="q49-NY-gRO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="33" y="111.5"/>
+        </tableViewCell>
+    </objects>
+</document>

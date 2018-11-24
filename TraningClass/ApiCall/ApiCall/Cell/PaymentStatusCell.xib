@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PaymentStatusCell" rowHeight="60" id="KGk-i7-Jjw" customClass="PaymentStatusCell" customModule="ApiCall" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="359" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="359" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2DL-kl-UNl">
+                        <rect key="frame" x="0.0" y="0.0" width="359" height="60"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payement Stauts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ujI-td-9Iw">
+                                <rect key="frame" x="30" y="10" width="122.5" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hMB-gj-9dp">
+                                <rect key="frame" x="162.5" y="10" width="166.5" height="40"/>
+                                <color key="backgroundColor" red="0.0459066438938023" green="0.81400697969543145" blue="0.11628048368856879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                                <state key="normal" title="Payement Status">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedPayementStatus:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="M0O-XC-P72"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ujI-td-9Iw" secondAttribute="bottom" constant="10" id="956-Vm-cUY"/>
+                            <constraint firstItem="hMB-gj-9dp" firstAttribute="top" secondItem="2DL-kl-UNl" secondAttribute="top" constant="10" id="Atv-v5-HYx"/>
+                            <constraint firstItem="ujI-td-9Iw" firstAttribute="leading" secondItem="2DL-kl-UNl" secondAttribute="leading" constant="30" id="TcI-Ae-Kpn"/>
+                            <constraint firstAttribute="trailing" secondItem="hMB-gj-9dp" secondAttribute="trailing" constant="30" id="baM-3f-HPv"/>
+                            <constraint firstAttribute="bottom" secondItem="hMB-gj-9dp" secondAttribute="bottom" constant="10" id="ewX-RN-DQW"/>
+                            <constraint firstItem="hMB-gj-9dp" firstAttribute="leading" secondItem="ujI-td-9Iw" secondAttribute="trailing" constant="10" id="qIw-wP-bRo"/>
+                            <constraint firstItem="ujI-td-9Iw" firstAttribute="top" secondItem="2DL-kl-UNl" secondAttribute="top" constant="10" id="tbO-SM-7a4"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="2DL-kl-UNl" secondAttribute="bottom" id="6bL-dx-p9x"/>
+                    <constraint firstItem="2DL-kl-UNl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="7Cx-1g-xfu"/>
+                    <constraint firstItem="2DL-kl-UNl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="D01-XG-P4w"/>
+                    <constraint firstAttribute="trailing" secondItem="2DL-kl-UNl" secondAttribute="trailing" id="VOf-OL-AsI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnPayementStatus" destination="hMB-gj-9dp" id="4eA-ie-q6j"/>
+                <outlet property="lblPayementStatus" destination="ujI-td-9Iw" id="n2J-7r-ywh"/>
+            </connections>
+            <point key="canvasLocation" x="-179.5" y="67"/>
+        </tableViewCell>
+    </objects>
+</document>
