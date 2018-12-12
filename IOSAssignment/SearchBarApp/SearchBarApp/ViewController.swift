@@ -27,10 +27,10 @@ class ViewController: UIViewController , UITableViewDelegate ,UITableViewDataSou
     }
     
     func arrayDataStored(){
-        let firstDict = ["name": "Akhilesh" as AnyObject,"lName": "Gupta" as AnyObject, "image": #imageLiteral(resourceName: "images1") as AnyObject]
-        let Dict2 = ["name": "Abhijal" as AnyObject ,"lName": "Jha" as AnyObject, "image": #imageLiteral(resourceName: "images2") as AnyObject]
-        let Dict3 = ["name": "Sakhi" as AnyObject , "lName": "Singh" as AnyObject,"image": #imageLiteral(resourceName: "images3") as AnyObject]
-        let Dict4 = ["name": "Ashish" as AnyObject ,"lName": "Sir" as AnyObject, "image": #imageLiteral(resourceName: "download") as AnyObject]
+        let firstDict = ["name": "Akhilesh" as AnyObject,"lName": "Gupta" as AnyObject, "image": #imageLiteral(resourceName: "6") as AnyObject]
+        let Dict2 = ["name": "Abhijal" as AnyObject ,"lName": "Jha" as AnyObject, "image": #imageLiteral(resourceName: "6") as AnyObject]
+        let Dict3 = ["name": "Sakhi" as AnyObject , "lName": "Singh" as AnyObject,"image": #imageLiteral(resourceName: "4") as AnyObject]
+        let Dict4 = ["name": "Ashish" as AnyObject ,"lName": "Sir" as AnyObject, "image": #imageLiteral(resourceName: "5") as AnyObject]
         arrayTrainees.append(contentsOf: [firstDict, Dict2, Dict3, Dict4])
     }
 

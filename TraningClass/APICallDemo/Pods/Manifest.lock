@@ -1,0 +1,52 @@
+PODS:
+  - Alamofire (4.8.0)
+  - AWSCore (2.7.3)
+  - AWSS3 (2.7.3):
+    - AWSCore (= 2.7.3)
+  - Cosmos (16.0.0)
+  - JSONWebToken (2.2.0)
+  - ObjectMapper (3.4.1)
+  - ReachabilitySwift (3)
+  - SVProgressHUD (2.2.5)
+  - SwiftyUserDefaults (4.0.0-alpha.1)
+  - TPKeyboardAvoiding (1.3.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - AWSS3
+  - Cosmos (~> 16.0)
+  - JSONWebToken
+  - ObjectMapper
+  - ReachabilitySwift (~> 3)
+  - SVProgressHUD
+  - SwiftyUserDefaults (= 4.0.0-alpha.1)
+  - TPKeyboardAvoiding
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AWSCore
+    - AWSS3
+    - Cosmos
+    - JSONWebToken
+    - ObjectMapper
+    - ReachabilitySwift
+    - SVProgressHUD
+    - SwiftyUserDefaults
+    - TPKeyboardAvoiding
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  AWSCore: 02d9ae2b6c2aaba6077fee2b09b0a62fb9b80282
+  AWSS3: 96488eeaae6059d5252a7065b2010f846bdafe14
+  Cosmos: 7bcee0fa858a9355a214f2a181be5dffcee42c81
+  JSONWebToken: 6fae32489632658d563dd6952a5c34020ea813e4
+  ObjectMapper: 5311bd50ca732930959e7ca1a2de43ab823a5ced
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyUserDefaults: cebe0ff9472f52699772a514b6f7155861d8069b
+  TPKeyboardAvoiding: cb69d5ddbe90ce0170e4bc2db1e5e41d4a3ad9a4
+
+PODFILE CHECKSUM: 75f2584d47854d33882079e7630b673895d7fd7d
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,46 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'APICallDemo' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for APICallDemo
+  
+#   pod 'Alamofire'
+
+##   pod 'ObjectMapper', '~> 2.2'
+#   pod 'ReachabilitySwift', '~> 3’
+#   pod 'SVProgressHUD'
+#   pod 'JSONWebToken'
+##   pod 'Kingfisher'
+##   pod 'DataCache'
+ pod 'SwiftyUserDefaults', '4.0.0-alpha.1'
+pod 'Alamofire'
+pod 'ObjectMapper'#, '~> 2.2'
+#pod 'SwiftyUserDefaults'
+pod 'ReachabilitySwift', '~> 3’
+pod 'SVProgressHUD'
+pod 'JSONWebToken'
+#pod 'Kingfisher'
+#pod 'DataCache'
+pod 'TPKeyboardAvoiding'
+#pod 'Fabric'
+#pod 'Crashlytics'
+#pod 'Firebase/Auth'
+#pod 'GoogleSignIn'
+#pod 'FacebookLogin'
+#pod 'Cloudinary', '~> 2.0'
+pod 'AWSS3'
+#pod 'UITextView+Placeholder'
+#pod 'ReadMoreTextView'
+#pod 'SkyFloatingLabelTextField', '~> 3.0'
+#pod 'SwiftRangeSlider'
+#pod 'SwipeCellKit'
+#pod 'MGSwipeTableCell'
+#pod 'CropViewController'
+pod 'Cosmos', '~> 16.0'
+#pod 'GradientProgress'
+#pod 'Socket.IO-Client-Swift'
+
+end

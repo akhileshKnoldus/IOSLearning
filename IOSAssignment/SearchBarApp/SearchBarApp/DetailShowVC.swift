@@ -19,7 +19,7 @@ class DetailShowVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-          print(<#T##items: Any...##Any#>)
+         // print(<#T##items: Any...##Any#>)
         if let valueDict = self.myDict {
            
             if let name = valueDict["name"] as? String {

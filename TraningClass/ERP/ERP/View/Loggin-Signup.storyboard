@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Wkc-X7-SIH">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="qez-LO-zKe" customClass="ViewController" customModule="ERP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="STW-IF-6DB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.25" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EXu-wE-lEo" userLabel="Top">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="b85-Xq-tsB">
+                                        <rect key="frame" x="112" y="50" width="150" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="4y7-G2-Hve"/>
+                                            <constraint firstAttribute="width" constant="150" id="UUZ-Ll-MUs"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0mi-cO-enj">
+                                        <rect key="frame" x="30" y="240" width="315" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="iCw-uJ-iMJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                        <state key="normal" title="Loggin"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qeM-xb-m83">
+                                        <rect key="frame" x="30" y="290" width="315" height="42"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                        <state key="normal" title="Signup"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.81729607069999999" green="0.72607438229999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="0mi-cO-enj" secondAttribute="trailing" constant="30" id="25I-Kh-MWO"/>
+                                    <constraint firstAttribute="trailing" secondItem="qeM-xb-m83" secondAttribute="trailing" constant="30" id="8CL-q0-s1z"/>
+                                    <constraint firstItem="qeM-xb-m83" firstAttribute="leading" secondItem="EXu-wE-lEo" secondAttribute="leading" constant="30" id="Ap2-FW-mxF"/>
+                                    <constraint firstItem="b85-Xq-tsB" firstAttribute="top" secondItem="EXu-wE-lEo" secondAttribute="top" constant="50" id="XdC-YW-IW8"/>
+                                    <constraint firstItem="0mi-cO-enj" firstAttribute="top" secondItem="b85-Xq-tsB" secondAttribute="bottom" constant="40" id="aKu-bv-d9P"/>
+                                    <constraint firstItem="b85-Xq-tsB" firstAttribute="centerX" secondItem="0mi-cO-enj" secondAttribute="centerX" id="jmH-Db-SeX"/>
+                                    <constraint firstItem="qeM-xb-m83" firstAttribute="top" secondItem="0mi-cO-enj" secondAttribute="bottom" constant="10" id="k45-nd-VSm"/>
+                                    <constraint firstItem="0mi-cO-enj" firstAttribute="leading" secondItem="EXu-wE-lEo" secondAttribute="leading" constant="30" id="mzx-u6-zWT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EXu-wE-lEo" firstAttribute="trailing" secondItem="Su3-Vc-FlL" secondAttribute="trailing" id="04U-vG-cr7"/>
+                            <constraint firstItem="EXu-wE-lEo" firstAttribute="bottom" secondItem="Su3-Vc-FlL" secondAttribute="bottom" id="5I5-2m-3Sx"/>
+                            <constraint firstItem="EXu-wE-lEo" firstAttribute="leading" secondItem="Su3-Vc-FlL" secondAttribute="leading" id="Dbu-c9-eRl"/>
+                            <constraint firstItem="EXu-wE-lEo" firstAttribute="top" secondItem="Su3-Vc-FlL" secondAttribute="top" id="dkB-Nc-Tmx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Su3-Vc-FlL"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BWd-Vh-yef" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="144.80000000000001" y="268.51574212893553"/>
+        </scene>
+    </scenes>
+</document>

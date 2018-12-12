@@ -1,0 +1,6 @@
+framework module Pods_JSONWithAlomafire {
+  umbrella header "Pods-JSONWithAlomafire-umbrella.h"
+
+  export *
+  module * { export * }
+}
