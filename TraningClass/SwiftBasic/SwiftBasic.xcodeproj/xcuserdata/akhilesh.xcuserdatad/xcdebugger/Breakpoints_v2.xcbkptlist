@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftBasic/Function.swift"
+            timestampString = "568200029.3736171"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftBasic/Function.swift"
+            timestampString = "568200029.3740849"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "Function"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftBasic.Function.result.getter : Swift.Double"
+                  moduleName = "SwiftBasic"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akhilesh/Documents/IOSLeraningMaterial/IOSLearning/TraningClass/SwiftBasic/SwiftBasic/Function.swift"
+                  timestampString = "568189768.603808"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftBasic.Function.result.setter : Swift.Double"
+                  moduleName = "SwiftBasic"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akhilesh/Documents/IOSLeraningMaterial/IOSLearning/TraningClass/SwiftBasic/SwiftBasic/Function.swift"
+                  timestampString = "568189768.607035"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftBasic.Function.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SwiftBasic.Function"
+                  moduleName = "SwiftBasic"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akhilesh/Documents/IOSLeraningMaterial/IOSLearning/TraningClass/SwiftBasic/SwiftBasic/Function.swift"
+                  timestampString = "568189768.609853"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "49">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftBasic.Function.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SwiftBasic.Function&gt;"
+                  moduleName = "SwiftBasic"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akhilesh/Documents/IOSLeraningMaterial/IOSLearning/TraningClass/SwiftBasic/SwiftBasic/Function.swift"
+                  timestampString = "568189768.612452"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
